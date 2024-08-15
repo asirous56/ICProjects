@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             x:Class="InvestCloudFrontTest.Views.SignInPage"
+             xmlns:vm="clr-namespace:InvestCloudFrontTest.ViewModels"
+             Title="SignInPage">
+  
+    <VerticalStackLayout>
+        
+    <Entry Placeholder="Username"
+           Margin="20"
+           Text="{Binding Username}"
+           Keyboard="Email" />
+
+        <Entry Placeholder="Password"
+               Margin="20"
+               Text="{Binding Password}"
+           IsPassword="True" />
+        <Button Text="Sign In"
+                Margin="20"
+                Command="{Binding SignInCommand}"
+            IsEnabled="{Binding IsSignInEnabled}" />
+
+        <Button Text="Create Account"
+                Margin="20"
+                Command="{Binding NavigateToCreateAccountCommand}" />
+    </VerticalStackLayout>
+
+</ContentPage>

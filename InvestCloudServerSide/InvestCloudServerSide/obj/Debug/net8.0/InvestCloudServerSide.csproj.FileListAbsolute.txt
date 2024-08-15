@@ -1,0 +1,15 @@
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\bin\Debug\net8.0\InvestCloudServerSide.exe
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\bin\Debug\net8.0\InvestCloudServerSide.deps.json
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\bin\Debug\net8.0\InvestCloudServerSide.runtimeconfig.json
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\bin\Debug\net8.0\InvestCloudServerSide.dll
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\bin\Debug\net8.0\InvestCloudServerSide.pdb
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\InvestCloudServerSide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\InvestCloudServerSide.AssemblyInfoInputs.cache
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\InvestCloudServerSide.AssemblyInfo.cs
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\InvestCloudServerSide.csproj.CoreCompileInputs.cache
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\InvestCloudServerSide.sourcelink.json
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\InvestCloudServerSide.dll
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\refint\InvestCloudServerSide.dll
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\InvestCloudServerSide.pdb
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\InvestCloudServerSide.genruntimeconfig.cache
+C:\Users\shsir\OneDrive\Documents\Projects\InvestCloudServerSide\InvestCloudServerSide\obj\Debug\net8.0\ref\InvestCloudServerSide.dll

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InvestCloudFrontTest.Views.ConfirmationPage"
+             xmlns:vm="clr-namespace:InvestCloudFrontTest.ViewModels"
+             Title="AccountCreationConfirmationPage">
+    <ContentPage.BindingContext>
+        <vm:ConfirmationViewModel />
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Margin="50">
+        <Label Text="{Binding Message}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        
+        <Button Text="Log In" Margin="50"
+                Command="{Binding NavigateToSignInCommand}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>

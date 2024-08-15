@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InvestCloudFrontTest.Views.CreateAccountPage"
+             xmlns:vm="clr-namespace:InvestCloudFrontTest.ViewModels"
+             Title="CreateAccountPage">
+   
+    
+    <VerticalStackLayout>
+        <StackLayout Orientation="Horizontal" Margin="20">
+            <Entry Placeholder="First Name" 
+               Text="{Binding FirstName}" />
+            <Label BackgroundColor="Red"
+                   Text="{Binding ErrorFN}"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="20">
+            <Entry Placeholder="Last Name"
+               Text="{Binding LastName}" />
+            <Label BackgroundColor="Red"
+                   Text="{Binding ErrorLN}"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     Margin="20">
+            <Entry Placeholder="Phone (XXX)-XXX-XXXX"
+               Text="{Binding Phone}" />
+            <Label BackgroundColor="Red"
+                   Text="{Binding ErrorPN}"
+                   VerticalOptions="Center" />
+        </StackLayout>
+    
+        <StackLayout Orientation="Horizontal"
+                     Margin="20">
+            <Entry Placeholder="UserName"
+               Text="{Binding UserName}" />
+            <Label BackgroundColor="Red"
+                   Text="{Binding ErrorUN}"
+                   VerticalOptions="Center" />
+        </StackLayout>
+    
+        <StackLayout Orientation="Horizontal"
+                     Margin="20">
+            <Entry Placeholder="Password"
+               Text="{Binding Password}"
+               IsPassword="True" />
+            <Label BackgroundColor="Red"
+                   Text="{Binding ErrorPD}"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     Margin="20">
+            <DatePicker Date="{Binding ServiceStartDate}" />
+            <Label BackgroundColor="Red" Text="{Binding ErrorSD}"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <Button Text="Create Account"
+                Command="{Binding CreateAccountCommand}"
+                IsEnabled="{Binding IsCreateAccountEnabled}" />
+
+    </VerticalStackLayout>
+</ContentPage>

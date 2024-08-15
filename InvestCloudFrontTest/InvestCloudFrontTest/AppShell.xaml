@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="InvestCloudFrontTest.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:InvestCloudFrontTest.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="InvestCloudFrontTest">
+
+    <ShellContent Route="signin" ContentTemplate="{DataTemplate local:SignInPage}" />
+    <ShellContent Route="createaccount" ContentTemplate="{DataTemplate local:CreateAccountPage}" />
+    <ShellContent Route="confirmation"  ContentTemplate="{DataTemplate local:ConfirmationPage}" />
+</Shell>
